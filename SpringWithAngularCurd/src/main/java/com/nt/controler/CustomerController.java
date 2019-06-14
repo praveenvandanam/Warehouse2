@@ -24,6 +24,7 @@ public List<Customer>getTheData(){
 	 System.out.println("no values..1");
 	 customers= (List<Customer>) repository.findAll();
 	 System.out.println(customers);
+	 System.out.println("..........");
 	return customers; //--> get the for customers 
 	 
 	 
