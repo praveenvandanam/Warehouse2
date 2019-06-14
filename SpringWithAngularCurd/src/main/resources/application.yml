@@ -1,0 +1,16 @@
+spring:
+  datasource:
+     
+    url: jdbc:mysql://localhost:3306/waveforce
+    username: root
+    password: praveen 
+    
+   
+      
+    
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    
+   
