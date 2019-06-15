@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @Configuration
-@ComponentScan("com.nt")
+@ComponentScan("com.nt.controler")
 @EntityScan(basePackages="com.nt.model")
 @EnableJpaRepositories(basePackages="com.nt.repositary")
 public class AppConfig {
